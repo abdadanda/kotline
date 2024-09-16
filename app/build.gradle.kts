@@ -69,6 +69,8 @@ dependencies {
 
     // Guava dependency for ListenableFuture
     implementation("com.google.guava:guava:32.1.2-jre")
+    implementation(libs.androidx.core)
+    implementation(libs.androidx.activity.ktx)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
